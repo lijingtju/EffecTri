@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Use AttenRNA predict your RNA sequence
 ```shell
-python evaluate.py --data test.csv --log_dir ./logs --batch 32 --resume ./human_model.pt
+python evaluate.py --data test.csv --log_dir ./logs --batch 32 --resume ./models/model_epoch_156.pt
 ```
 
 You can get the predict score from ```./log``` forder.
